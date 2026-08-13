@@ -642,15 +642,16 @@ nav a:hover::after {
 
     max-width: 1000px;
 
-    margin: 100px auto;
+    margin: 45px auto;
 
-    padding: 90px 40px;
+    padding: 55px 40px;
 
     text-align: center;
 }
 
 .home-intro::before {
     content: "";
+
 
     position: absolute;
 
@@ -744,7 +745,7 @@ nav a:hover::after {
    ========================================================= */
 
 .interactive-section {
-    padding: 110px 30px;
+padding: 55px 30px;
 
     background:
         linear-gradient(
@@ -758,7 +759,7 @@ nav a:hover::after {
 .section-heading {
     max-width: 800px;
 
-    margin: 0 auto 70px;
+margin: 0 auto 35px;
 
     text-align: center;
 }
@@ -1726,21 +1727,14 @@ nav a:hover::after {
    ========================================================= */
 
 .reveal {
-    opacity: 0;
-
-    transform: translateY(35px);
-
-    transition:
-        opacity 0.9s ease,
-        transform 0.9s ease;
+    opacity: 1;
+    transform: none;
 }
 
 .reveal.visible {
     opacity: 1;
-
-    transform: translateY(0);
+    transform: none;
 }
-
 
 /* =========================================================
    PREMIUM GLOW
