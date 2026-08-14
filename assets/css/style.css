@@ -94,11 +94,12 @@ header {
 
     width: 100%;
 
-    padding: 18px 40px;
+    padding: 18px 20px;
 
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
+gap: 25px;
 
     background:
         linear-gradient(
@@ -137,7 +138,6 @@ header img:hover {
         );
 }
 
-
 /* =========================================================
    NAVIGATION
    ========================================================= */
@@ -147,12 +147,13 @@ nav {
     align-items: center;
     flex-wrap: wrap;
     justify-content: flex-end;
+    gap: 12px 18px;
 }
 
 nav a {
     position: relative;
 
-    margin-left: 25px;
+    margin-left: 0px;
 
     color: #ffffff;
 
@@ -1794,24 +1795,31 @@ footer a:hover {
 
     header {
         flex-direction: column;
+        align-items: center;
 
         padding: 20px;
+        gap: 15px;
     }
 
     header img {
         width: 130px;
 
-        margin-bottom: 15px;
+        margin-bottom: 0;
     }
 
-    nav {
-        justify-content: center;
-    }
+nav {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px 14px;
+}
 
     nav a {
         display: inline-block;
 
-        margin: 8px 10px;
+        margin: 0px;
 
         font-size: 13px;
     }
