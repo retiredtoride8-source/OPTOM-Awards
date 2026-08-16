@@ -1788,6 +1788,57 @@ footer a:hover {
 
 
 /* =========================================================
+   ABOUT PAGE STORY CARDS
+   ========================================================= */
+
+body.about-page .intro {
+    max-width: 1000px;
+    margin: 50px auto;
+
+    padding: 50px 55px;
+
+    background:
+        radial-gradient(
+            circle at 15% 20%,
+            rgba(255, 255, 255, 0.07) 0%,
+            transparent 28%
+        ),
+        radial-gradient(
+            circle at 85% 75%,
+            rgba(212, 175, 55, 0.08) 0%,
+            transparent 35%
+        ),
+        linear-gradient(
+            135deg,
+            #3b3b3b 0%,
+            #292929 45%,
+            #1f1f1f 100%
+        );
+
+    border: 1px solid rgba(212, 175, 55, 0.25);
+    border-top: 4px solid rgba(212, 175, 55, 0.8);
+
+    border-radius: 28px;
+
+    box-shadow:
+        0 15px 40px rgba(0, 0, 0, 0.25);
+}
+
+body.about-page .intro h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+body.about-page .intro p {
+    max-width: 850px;
+    margin: 22px auto;
+
+    text-align: center;
+    font-size: 17px;
+}
+
+
+/* =========================================================
    MOBILE
    ========================================================= */
 
