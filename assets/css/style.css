@@ -6631,3 +6631,17 @@ nav {
         padding: 60px 16px;
     }
 }
+
+
+/* HONEYBADGER SPAWN FOOTER CREDIT */
+
+.honeybadger-footer-link {
+    color: #ff2bbf;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.honeybadger-footer-link:hover {
+    color: #ff75d6;
+    text-decoration: underline;
+}
