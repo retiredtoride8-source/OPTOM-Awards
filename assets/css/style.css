@@ -6543,3 +6543,91 @@ nav {
     }
 
 }
+
+
+/* ==========================================
+   HONEYBADGER SPAWN WEBSITE PROMO
+========================================== */
+.web-design-promo {
+    padding: 80px 20px;
+    background: linear-gradient(180deg, #111111 0%, #1a1a1a 100%);
+}
+
+
+.web-design-promo-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 24px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+.web-design-promo-image img {
+    width: 100%;
+    max-width: 560px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.web-design-promo-label {
+    display: inline-block;
+    margin-bottom: 14px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #ff2bbf;
+}
+
+.web-design-promo-content h2 {
+    font-size: 2.2rem;
+    line-height: 1.2;
+    margin-bottom: 18px;
+    color: #ffffff;
+}
+
+.web-design-promo-content p {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.82);
+    margin-bottom: 16px;
+}
+
+.web-design-promo-button {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 14px 26px;
+    background: #ff2bbf;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-radius: 999px;
+    transition: all 0.3s ease;
+}
+
+.web-design-promo-button:hover {
+    background: #ff4ccc;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .web-design-promo-inner {
+        grid-template-columns: 1fr;
+        padding: 24px;
+    }
+
+    .web-design-promo-content h2 {
+        font-size: 1.8rem;
+    }
+
+    .web-design-promo {
+        padding: 60px 16px;
+    }
+}
